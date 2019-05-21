@@ -61,7 +61,7 @@ namespace MapSample
                 {
                     imageLocation = dialog.FileName;
                     image1.ImageLocation = imageLocation;
-                    
+                  
                 }
             }
             catch (Exception)
@@ -74,7 +74,6 @@ namespace MapSample
         private void btn2_Click(object sender, EventArgs e)
         {
 
-
             int longt;
             int latdt;
 
@@ -84,6 +83,7 @@ namespace MapSample
             txtLat.Text = latdt.ToString();
             txtLong.Text = longt.ToString();
 
+            //test reasding
 
         }
     }
