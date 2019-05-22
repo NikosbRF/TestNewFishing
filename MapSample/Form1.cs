@@ -73,19 +73,26 @@ namespace MapSample
 
         private void btn2_Click(object sender, EventArgs e)
         {
+            Nikos();
+        }
 
+
+        public void Nikos()
+        {
             int longt;
             int latdt;
 
-            longt = 4;
-            latdt = 5;
+            longt = 5;
+            latdt = 4;
 
             txtLat.Text = latdt.ToString();
             txtLong.Text = longt.ToString();
-
-            //test reasding
-
+                
         }
+            
+       
+
+        
     }
     
         
